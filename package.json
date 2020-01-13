@@ -1,12 +1,12 @@
 {
-    "name": "emoji",
-    "displayName": "Emoji",
+    "name": "emoji2",
+    "displayName": "Emoji2",
     "description": "Plugin to insert emoji from the command palette",
-    "version": "0.0.3",
-    "publisher": "Perkovec",
+    "version": "1.0.0",
+    "publisher": "Tecuane",
     "icon": "icon.png",
     "bugs": {
-        "url": "https://github.com/Perkovec/Emoji/issues"
+        "url": "https://github.com/tecuane/vscode-emoji2/issues"
     },
     "keywords": [
         "emoji",
@@ -18,9 +18,9 @@
     ],
     "repository": {
 		"type": "git",
-		"url": "https://github.com/Perkovec/Emoji.git"
+		"url": "https://github.com/tecuane/vscode-emoji2"
 	},
-    "homepage": "https://github.com/Perkovec/Emoji",
+    "homepage": "https://github.com/tecuane/vscode-emoji2",
     "engines": {
         "vscode": "^1.0.0"
     },
@@ -28,13 +28,13 @@
         "Other"
     ],
     "activationEvents": [
-		"onCommand:emoji.indertEmoji",
+		"onCommand:emoji.insertEmoji",
 		"onCommand:emoji.insertUnicode"
 	],
     "main": "./extension",
     "contributes": {
         "commands": [{
-            "command": "emoji.indertEmoji",
+            "command": "emoji.insertEmoji",
             "title": "Emoji: Insert emoji"
         },
         {

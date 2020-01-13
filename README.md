@@ -1,4 +1,4 @@
-# Emoji
+# vscode-emoji2
 
 A simple plugin to insert emoji from the command palette.
 
